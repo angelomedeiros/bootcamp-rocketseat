@@ -11,6 +11,7 @@
     "sucrase": "3.10.1"
   },
   "scripts": {
-    "dev": "nodemon src/server"
+    "dev": "nodemon src/server",
+    "dev:debug": "nodemon --inspect src/server"
   }
 }
